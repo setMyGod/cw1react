@@ -1,7 +1,9 @@
 import React from 'react';
 
+
+
 const Ship = (props) => {
-    const [flight_number, mission_name] = props
+    const {flight_number, mission_name} = props
     return (
         <div>
             <div>{flight_number}</div>
